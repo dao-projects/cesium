@@ -1,4 +1,4 @@
-import Observer from '@xizher/observer';
+import Observer from '@daoxin/observer';
 /** 基础工具类 */
 export class BaseTool extends Observer {
     //#endregion

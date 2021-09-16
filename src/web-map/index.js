@@ -24,7 +24,8 @@ export class WebMap extends Observer {
         super();
         /** 配置项 */
         this._options = {
-            baseUrl: 'https://cesium.com/downloads/cesiumjs/releases/1.80/Build/Cesium/',
+            // baseUrl: 'https://cesium.com/downloads/cesiumjs/releases/1.80/Build/Cesium/',
+            baseUrl: 'https://itgr-data.oss-cn-chengdu.aliyuncs.com/Cesium/',
             debug: false,
             debugName: 'webMap',
             center: [0, 0],

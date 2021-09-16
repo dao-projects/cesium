@@ -8,7 +8,7 @@
   "main": "lib/index.js",
   "scripts": {
     "push": "npm publish --access=public",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",

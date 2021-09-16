@@ -83,9 +83,6 @@ webMap.mapCursor.setCursor('xxx')
 
 -  `'change': { type: MapCursorType }` → 当前地图鼠标样式变化触发
 
-## UML
-
-![基于业务功能型的地图API二次开发UML](基于业务功能型的地图API二次开发UML.png)
 
 ## TODO
 
