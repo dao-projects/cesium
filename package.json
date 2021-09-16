@@ -1,0 +1,37 @@
+{
+  "name": "@daoxin/cesium",
+  "version": "0.0.1",
+  "description": "基于cesium封装实现库",
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "push": "npm publish --access=public",
+    "build": "webpack --mode production",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dao-projects/cesium.git"
+  },
+  "keywords": [
+    "websocket",
+    "typescript"
+  ],
+  "author": "daoxin",
+  "license": "Apache License",
+  "bugs": {
+    "url": "https://github.com/dao-projects/cesium/issues"
+  },
+  "homepage": "https://github.com/dao-projects/cesium#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2"
+  },
+  "dependencies": {
+    "@daoxin/observer": "0.0.1",
+    "@daoxin/utils": "0.0.1",
+    "cesium": "^1.85.0"
+  }
+}
